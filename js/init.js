@@ -90,6 +90,7 @@
 
 		// Dropdowns.
 			$('#nav > ul').dropotron({
+				//expandMode: 'click',
 				alignment: 'right',
 				hideDelay: 350
 			});
