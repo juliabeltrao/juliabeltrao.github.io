@@ -81,9 +81,23 @@
 			<div id="main" class="wrapper style1">
 			<br/>
 			<br/>
-				<div class="container">
+			<script>
+			var random_images_array_results = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg"];
+			function getRandomImage(imgAr, path) {
+				path = path || 'images/'; // default path here
+				var num = Math.floor( Math.random() * imgAr.length );
+				var img = imgAr[ num ];
+				var imgStr = '<img src="' + path + img + '" alt = "">';
+				document.write(imgStr); document.close();
+			}
+			</script>
+				<div class="container" style="text-align:center">
 					<center><h3>Results</h3></center>
-						
+					<p><span class="image">
+					<script type="text/javascript">getRandomImage(random_images_array_results,'images/results/');</script>
+					</span>
+					<br><br>
+
 						<b>2016</b><br>
 						Estonian Open 2016 – <b>Winning Team</b> – Valtteri Walldén &#38; Alf Parvi <br>
 						Estonian Open 2016 – <b>Breaking Judge</b> – Sara Halonen <br>
@@ -100,7 +114,8 @@
 						Tallinn Tech Open 2015 - <b>Finalists</b> - Valtteri Walldén &#38; Alf Parvi <br>
 						Helsinki Open 2015 - <b>Semi-finals Judge</b> - Sara Halonen <br>
 						Vidzeme Open 2015 - <b>Semi-finalists</b> - Valtteri Walldén &#38; Alf Parvi <br>
-						RTU Open 2015 - <b>Finalists</b> - Bernardo Clementino &#38; Alf Parvi RTU Open 2015 - Semi-finalists - Valtteri Walldén &#38; Alicia Jensen <br><br>
+						RTU Open 2015 - <b>Finalists</b> - Bernardo Clementino &#38; Alf Parvi <br>
+						RTU Open 2015 - <b>Semi-finalists</b> - Valtteri Walldén &#38; Alicia Jensen <br><br>
 
 						<b>2014</b><br>
 						Turku Open 2014 - <b>Winning Team</b> - Kiran Garimella &#38; Alf Parvi <br>
@@ -110,6 +125,7 @@
 						Helsinki Open 2014 - <b>Best Novice Speaker</b> - Alf Parvi <br>
 						Estonian Open 2014 - <b>Novice Final Winner</b> - Samu Kilpinen &#38; Alf Parvi <br>
 						Estonian Open 2014 - <b>Semi-finals Judge</b> - Sara Halonen <br>
+					</p>
 				</div>
 			</div>
 
