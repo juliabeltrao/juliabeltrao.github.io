@@ -42,12 +42,13 @@
 				<!--h1 id="logo"><a href="index.html">Landed</a></h1-->
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Aalto Debate</a>
 						<li><a href="#">About</a>
 							<ul>	
-								<li><a href="the_board.html">The board</a></li>
-								<!--li><a href="history.html">History</a></li-->
+								<li><a href="index.html">Home</a>
 								<li><a href="results.html">Results</a></li>
+								<li><a href="the_board.html">The board</a></li>
+								<li><a href="previous_board.html">Previous board</a></li>
+								<!--li><a href="history.html">History</a></li-->
 							</ul>
 						</li>
 						<li><a href="#">Get involved</a>
@@ -62,7 +63,7 @@
 						<li><a href="#">Competitive debate</a>
 							<ul>	
 								<li><a href="why_debate.html">Why debate</a></li>
-								<li><a href="british_parl">British parliamentary format</a></li>
+								<li><a href="british_parl.html">British parliamentary format</a></li>
 								<li><a href="highschools.html">High schools</a></li>
 							</ul>
 						</li>
@@ -81,7 +82,12 @@
 			<br/>
 			<br/>
 			<script>
-			var random_images_array_why_debate = ["image1.jpg","image2.jpg","image3.jpg","image4.jpg","image5.jpg","image6.jpg","image7.jpg","image8.jpg","image9.jpg", "image10.jpg", "image11.jpg","image12.jpg","image13.jpg","image14.jpg","image15.jpg","image16.jpg","image17.jpg","image18.jpg","image19.jpg", "image20.jpg", "image21.jpg","image22.jpg","image23.jpg","image24.jpg"];
+			var random_images_array_why_debate1 = ["image1.jpg","image2.jpg","image3.jpg","image4.jpg"];
+			var random_images_array_why_debate2 = ["image5.jpg","image6.jpg","image7.jpg","image8.jpg"];
+			var random_images_array_why_debate3 = ["image9.jpg","image10.jpg","image11.jpg","image12.jpg"];
+			var random_images_array_why_debate4 = ["image13.jpg","image14.jpg","image15.jpg","image16.jpg"];
+			var random_images_array_why_debate5 = ["image17.jpg","image18.jpg","image19.jpg","image20.jpg"];
+			var random_images_array_why_debate6 = ["image21.jpg","image22.jpg","image23.jpg","image24.jpg"];
 			function getRandomImage(imgAr, path) {
 				path = path || 'images/'; // default path here
 				var num = Math.floor( Math.random() * imgAr.length );
@@ -91,14 +97,39 @@
 			}
 			</script>
 				<div class="container">
-				<center><h3>Debating</h3></center>
-				<p><span class="image left">
-				<script type="text/javascript">getRandomImage(random_images_array_why_debate,'images/why_debate/');</script>
-				</span>
-		Debating is about engaging through argument and clashing over ideas. It requires critical thinking and the ability to lay out a case clearly in order to convince others of your point of view. This requires analysing the topic, understanding its impacts and the burdens that need to be met in order to justify something. Often, however, there isn’t one correct answer. We see debates every day in academia, politics and between friends over a cup of coffee or around a bar room table. <br/>
+				<center><h2>Debating</h2></center>
+				<div class="box alt">
+ 					<div class="row 50% uniform">
+						<div class="4u  6u(xsmall)"><span class="image fit">
+							<script type="text/javascript">getRandomImage(random_images_array_why_debate1,'images/why_debate/');</script>
+						</span></div>
+						<div class="4u  6u(xsmall)"><span class="image fit">
+							<script type="text/javascript">getRandomImage(random_images_array_why_debate2,'images/why_debate/');</script>
+						</span></div>
+						<div class="4u  6u(xsmall)"><span class="image fit">
+							<script type="text/javascript">getRandomImage(random_images_array_why_debate3,'images/why_debate/');</script>
+						</span></div>
+					</div>
+				</div>
 
+				<p>
+		Debating is about engaging through argument and clashing over ideas. It requires critical thinking and the ability to lay out a case clearly in order to convince others of your point of view. This requires analysing the topic, understanding its impacts and the burdens that need to be met in order to justify something. Often, however, there isn’t one correct answer. We see debates every day in academia, politics and between friends over a cup of coffee or around a bar room table. </p>
+				<p>
 Debating is however also a competitive activity, with university tournaments most commonly in the British Parliamentary format. Debaters compete in debating, with panels of judges considering the persuasiveness of the arguments put forth by the debaters. Debaters in tournaments have to be able to argue for any side on any case, providing justification and analysis. Debating is a great way to practice critical thinking, learn about a wide array of topics, from philosophy to foreign relations, ethics to international law, sports, art and many more.
 				</p>
+				<div class="box alt">
+ 					<div class="row 50% uniform">
+						<div class="4u  6u(xsmall)"><span class="image fit">
+							<script type="text/javascript">getRandomImage(random_images_array_why_debate4,'images/why_debate/');</script>
+						</span></div>
+						<div class="4u  6u(xsmall)"><span class="image fit">
+							<script type="text/javascript">getRandomImage(random_images_array_why_debate5,'images/why_debate/');</script>
+						</span></div>
+						<div class="4u  6u(xsmall)"><span class="image fit">
+							<script type="text/javascript">getRandomImage(random_images_array_why_debate6,'images/why_debate/');</script>
+						</span></div>
+					</div>
+				</div>
 
 				</div>
 			</div>
@@ -109,6 +140,9 @@ Debating is however also a competitive activity, with university tournaments mos
 				<ul class="icons">
 					<!--a href="#top" id="toTop" title="Back to Top"></a-->
 					<li><a href="https://www.facebook.com/aaltodebatingsociety" class="icon alt fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/aaltodebate/" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+					<li><a href="https://twitter.com/aaltodebate" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+	
 					<li>|</li>
 					<li>&copy; Aalto Debating Society</li>
 					<li>|</li>
