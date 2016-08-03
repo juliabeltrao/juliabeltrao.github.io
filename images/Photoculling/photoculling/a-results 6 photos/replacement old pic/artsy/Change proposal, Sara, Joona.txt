@@ -1,0 +1,2 @@
+Remove pictures 3 and 6, make the layout to be 4 pictures in stead of 6. 
+Reason: photo quality is worse in pic 3 & 6, also, looks better if not the same people in all photos 
